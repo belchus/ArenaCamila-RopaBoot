@@ -1,0 +1,111 @@
+.nav-color{
+    background-color: grey;
+}
+body{
+    background-color: rgb(189, 114, 139);
+}
+
+.sub-titul{
+    text-align: center;
+}
+
+.dropdown-menu{
+    background-color: grey;
+}
+
+.row{
+    padding: 1rem;
+}
+
+footer{
+    padding: 2rem;
+}
+
+
+
+
+
+.titulo2{
+    text-align: center;
+        color: rgb(238, 230, 233);
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    
+    .mensaje{
+        display: none;
+    }
+    
+    
+    .tienda{
+        justify-content: center;
+        padding: 3rem;
+    }
+    
+    .titulo{
+        font-size: 4rem;
+    }
+    main {
+    display: grid;
+    grid-template-areas:"parrafo"
+                         "tienda";
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    justify-content: center;
+    justify-items: center;
+    }
+    
+    .madre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .hijo {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+        justify-content: center;
+    }
+    
+    footer{
+        background-color: black;
+        color: white;
+        
+     
+        
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .tienda{
+        justify-content: center;
+        display: none;
+    }
+    
+    .caja{
+        justify-content: center;
+        background-color: gray;
+        width: 400px;
+        height: 1400px;
+        margin: 50px;
+        padding: 60px 100px 100px;
+        border-radius: 10px;
+        border: 8px solid palevioletred;
+    }
+    .fondo{
+    display: none;
+    }
+    .contacto{
+        height: 72vh;
+    }
+    
+    .hijo:hover {
+        transform:scale(1.3);
+      
+    }
+ 
